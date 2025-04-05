@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "your-tfstate-bucket" # replace with your bucket name
+    bucket = "dify-self-host-455904-tfstate"
     prefix = "dify"
   }
 }
